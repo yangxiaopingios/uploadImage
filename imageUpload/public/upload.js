@@ -3,7 +3,7 @@
     var show = document.getElementById('showImage');
 
     if (!(window.FileReader && window.File && window.FileList && window.Blob)) {
-        show.innerHTML = '您的浏览器不支持fileReader';
+        show.innerHTML = '您的浏览器不支持File API';
         upimg.setAttribute('disabled', 'disabled');
         return false;
     }
